@@ -1,0 +1,10 @@
+{
+	"cmd":
+	[
+		"C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
+		"${project_path}\\\\${project_base_name}.sln",
+		"/noconsolelogger",
+		"/logger:${packages}\\User\\UnityBuild\\SublimeLogger.dll"
+	],
+	"file_regex": "([^(]*)\\((\\d*),(\\d*)\\)\\s*(.*)"
+}

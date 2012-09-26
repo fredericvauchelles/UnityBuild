@@ -1,0 +1,708 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"g",
+				"gui	GUI.TextField(position,string,maxlength,style)"
+			],
+			[
+				"gui",
+				"gui	GUI.Label(position,string,style)"
+			],
+			[
+				"deplo",
+				"deployPassword"
+			],
+			[
+				"de",
+				"default-compile-lib"
+			],
+			[
+				"com",
+				"compile-swc"
+			],
+			[
+				"an",
+				"ant"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"lo",
+				"lounge2home"
+			],
+			[
+				"thea",
+				"theater2home"
+			],
+			[
+				"home2",
+				"home2lounge"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Program Files (x86)/Unity/Editor/Data/Mono/bin/xbuild.bat",
+			"settings":
+			{
+				"buffer_size": 70,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/UnityBuild/Unity.sublime-build",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"buil",
+				"Build: Build"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git pu",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git ad",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"snipp	",
+				"Snippet: GUI.Button(position,content,style)"
+			],
+			[
+				"setsy uni",
+				"Set Syntax: Unity C#"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"snipp",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"action",
+				"Set Syntax: ActionScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"impo",
+				"Build: data-import"
+			],
+			[
+				"data",
+				"Build: data-import"
+			],
+			[
+				"expo",
+				"Build: data-export"
+			],
+			[
+				"depl",
+				"Build: deploy-deployer"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"deplo",
+				"Build: deploy-deployer"
+			],
+			[
+				"rele",
+				"Build: release-deployer"
+			],
+			[
+				"releas",
+				"Build: release-deployer"
+			],
+			[
+				"deploy",
+				"Build: package-deployer"
+			],
+			[
+				"package-",
+				"Build: package-deployer"
+			],
+			[
+				"server",
+				"Build: release-server"
+			],
+			[
+				"re",
+				"Build: release-server"
+			],
+			[
+				"rel",
+				"Build: release-server"
+			],
+			[
+				"reme",
+				"Package Control: Remove Package"
+			],
+			[
+				"relea",
+				"Build: release"
+			],
+			[
+				"test",
+				"Build: test"
+			],
+			[
+				"tes",
+				"Build: test"
+			],
+			[
+				"b",
+				"Build: test"
+			],
+			[
+				"bui",
+				"Build: test"
+			],
+			[
+				"erla",
+				"Set Syntax: Erlang"
+			],
+			[
+				"act",
+				"Set Syntax: ActionScript"
+			],
+			[
+				"filedi",
+				"FileDiffs: Menu"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/UnityBuild/Unity.sublime-build",
+		"/D/projects/match/Assets/Standard Assets/Particles/Legacy Particles/TimedObjectDestructor.js",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/SublimeX/Unity/SublimeLogger-Source/LoggerImpl.cs",
+		"/C/Users/workstation1-user/Downloads/SublimeUnity/SublimeUnity/SublimeLogger.dll",
+		"/D/projects/match/aSequencer.cs",
+		"/D/projects/match/match-csharp.sln",
+		"/D/projects/match/uencerBase.cs",
+		"/D/projects/match/neous/ForceFieldUtility.cs",
+		"/D/projects/match/Forecaster.cs",
+		"/D/projects/match/age.cs",
+		"/D/projects/match/.cs",
+		"/D/projects/match/uencer.cs",
+		"/D/projects/match/Assembly-UnityScript-firstpass-vs.unityproj",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/SublimeX/.gitignore",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/SublimeX/.git/config",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/Git.sublime-settings",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/Git/Git.sublime-settings",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/SublimeX/SublimeX.sublime-project",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/SublimeX/SublimeX.sublime-workspace",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/SublimeX/README.md",
+		"/D/build/build.projects.xml",
+		"/D/build/build.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/CloudBerry Explorer for Amazon S3/2012_09_25_09_35_42_2975/3383f113-7967-4b79-a033-9b9c89117284/sv3dConfig.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/CloudBerry Explorer for Amazon S3/2012_09_25_09_35_42_2975/3dc57cc0-7b06-4159-b67a-c78615e54942/sv3dConfig.xml",
+		"/D/workspace/sv3dConfig.xml",
+		"/C/Users/workstation1-user/Downloads/themeforest-90959-unite-wordpress-business-magazine-theme.zip",
+		"/C/Users/workstation1-user/AppData/Local/Temp/CloudBerry Explorer for Amazon S3/2012_09_25_09_35_42_2975/83cab4a1-07fd-48cc-ba08-cfa2fb636e04/sv3dConfig.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/CloudBerry Explorer for Amazon S3/2012_09_25_09_35_42_2975/bc7e1e58-cd6b-42e3-823e-75ed76a788c2/sv3dConfig.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/CloudBerry Explorer for Amazon S3/2012_09_25_09_35_42_2975/7cad6868-b4a8-4e31-8337-325d543bfc81/sv3dConfig.xml",
+		"/D/build/build.frameworks.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/CloudBerry Explorer for Amazon S3/2012_09_25_09_35_42_2975/c725d6fd-a0c3-4bf9-b42b-10c10ee23b10/sv3dConfig.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/CloudBerry Explorer for Amazon S3/2012_09_25_09_35_42_2975/001d040b-94b5-4d86-a305-74604f19ac1a/sv3dConfig.xml",
+		"/D/workspace/sv3d/frameworks/projects/core/www/php/src/controllers/DefaultController.class.php",
+		"/D/build/build.s3.xml",
+		"/C/Users/workstation1-user/AppData/Local/Unity/Editor/Editor.log",
+		"/D/workspace/sv3d/frameworks/projects/core/www/php/src/sv3d/config/ServerConfig.class.php",
+		"/D/projects/match/Assets/LocalV2/GUI/Shaders/UnlitTransparentTint.shader",
+		"/D/workspace/builds/demoPackFo_d_1_trunk.1/php/src/controllers/DefaultController.class.php",
+		"/D/workspace/sv3d/frameworks/projects/core/www/php/src/sv3d/core/Route.class.php",
+		"/D/workspace/sv3d/frameworks/projects/core/www/php/src/views/Default/config.php",
+		"/D/workspace/sv3d/frameworks/projects/core/www/php/src/sv3d/controllers/Controller.class.php",
+		"/D/workspace/sv3d/frameworks/projects/core/www/php/src/views/layout.config.xml.php",
+		"/D/build/build.deployer.xml",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/Red5/webapps/referencesPre/ehcache-sv.xml",
+		"/D/workspace/sv3d/frameworks/projects/core/www/sv3dConfig.xml",
+		"/D/workspace/sv3d/frameworks/projects/core/www/php/src/views/layout.php",
+		"/D/workspace/sv3d/frameworks/projects/core/src/sv3d/core/EntryPoint.mxml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/fz3temp-2/build.deployer.xml",
+		"/D/workspace/projects/demoPackFo/www/sv3dConfig.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/CloudBerry Explorer for Amazon S3/2012_09_06_08_52_51_2575/4d9e6279-e6ea-4801-8bf7-cee0eea52042/sv3dConfig.xml",
+		"/D/build/build.git.xml",
+		"/D/workspace/builds/bootstrap/index.php",
+		"/D/workspace/builds/bootstrap/conf/conf.php",
+		"/D/workspace/builds/bootstrap/conf/form.xml",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/FTPSync/ftpsync.sublime-settings",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/FTPSync.sublime-settings",
+		"/D/build/build.remote.xml",
+		"/D/build/apache-ant-1.8.4/lib/ant-contrib-1.0b3/net/sf/antcontrib/antcontrib.properties",
+		"/C/Users/workstation1-user/AppData/Local/Temp/fz3temp-2/build.remote 2.xml",
+		"/D/build/build.server.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/fz3temp-2/build.remote.xml",
+		"/D/build/build.mysql.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/fz3temp-2/sv3d 4.properties",
+		"/C/Users/workstation1-user/AppData/Local/Temp/fz3temp-2/build.deployer 2.xml",
+		"/D/Red5/webapps/referencesPre/sv3d.properties",
+		"/C/Users/workstation1-user/AppData/Local/Temp/fz3temp-2/build.server.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/fz3temp-1/build.deployer 2.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/fz3temp-1/build.s3.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/fz3temp-1/build.remote.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/fz3temp-1/build.remote 2.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/fz3temp-1/build.deployer.xml",
+		"/D/workspace/sv3d/frameworks/build_common.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/fz3temp-1/build 2.xml",
+		"/C/Users/workstation1-user/AppData/Local/Temp/fz3temp-1/build.xml",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/sv3d-build.sublime-build",
+		"/D/projects/match/Assets/Standard Assets/Scripts/Camera Scripts/MouseOrbit.js",
+		"/D/build/build.deploy.test.xml",
+		"/D/Red5/webapps/sv3d.deployer/WEB-INF/web.xml",
+		"/D/Red5/webapps/referencesPre/WEB-INF/web.xml",
+		"/D/Red5/webapps/sv3d.deployer/WEB-INF/red5-web.xml",
+		"/D/Red5/conf/red5.xml",
+		"/D/Red5/webapps/red5-default.xml",
+		"/D/Red5/conf/web-default.xml",
+		"/D/Red5/conf/web.xml",
+		"/D/Red5/webapps/referencesPre/WEB-INF/red5-web.xml",
+		"/D/workspace/sv3d/frameworks/projects/server/core/src/com/visimmo3d/sv3d/servers/servlet/HttpFileServer.java",
+		"/D/workspace/sv3d/frameworks/projects/server/deployer/src/com/visimmo3d/sv3d/servers/deployer/Sv3dDeployerApplication.java",
+		"/D/workspace/sv3d/frameworks/projects/server/deployer/src/com/visimmo3d/sv3d/servers/deployer/Sv3dRESTFulService.java",
+		"/D/workspace/sv3d/frameworks/projects/server/core/src/com/visimmo3d/sv3d/servers/servlet/SimpleImageCaptchaServlet.java",
+		"/D/workspace/sv3d/frameworks/projects/core/src/sv3d/core/Sv3dSessionManager.as",
+		"/D/build/tmp/unzip/server_trunk_d/version.properties",
+		"/D/workspace/builds/server_trunk_d/version.properties",
+		"/D/build/build.libs.xml",
+		"/D/workspace/sv3d/frameworks/projects/commons/gui/build.xml",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/Java/Ant.sublime-build",
+		"/D/workspace/build.libs.xml",
+		"/D/workspace/build.xml",
+		"/D/workspace/build.projects.xml",
+		"/D/workspace/build.s3.xml",
+		"/D/workspace/build.frameworks.xml",
+		"/D/workspace/build.theme.xml",
+		"/D/workspace/awstasks-read-only/java/dak/ant/taskdefs/S3Upload.java",
+		"/D/workspace/aws.properties",
+		"/D/workspace/projects/build.xml",
+		"/D/workspace/projects/demoPackFo/build.properties",
+		"/D/workspace/sv3d/build.xml",
+		"/D/workspace/sv3d/build.properties",
+		"/D/workspace/sv3d/frameworks/projects/core/build.properties",
+		"/D/workspace/sv3d/frameworks/build.xml",
+		"/D/workspace/rgit.sh~",
+		"/C/Users/workstation1-user/Downloads/themeforest-1750311-canvas-admin-premium-responsive-admin-template/theme/typography.html",
+		"/C/Users/workstation1-user/Downloads/jboss-jdf-ticket-monster-1.0.5.Final-5-g559e687/jboss-jdf-ticket-monster-559e687/demo/src/main/webapp/resources/templates/desktop/events.html",
+		"/C/Users/workstation1-user/Downloads/jboss-jdf-ticket-monster-1.0.5.Final-5-g559e687/jboss-jdf-ticket-monster-559e687/demo/src/main/webapp/resources/js/app/collections/events.js",
+		"/C/Users/workstation1-user/Downloads/themeforest-1750311-canvas-admin-premium-responsive-admin-template/theme/forms.html",
+		"/C/Users/workstation1-user/Downloads/themeforest-1750311-canvas-admin-premium-responsive-admin-template/theme/interface.html",
+		"/C/Users/workstation1-user/Downloads/themeforest-1750311-canvas-admin-premium-responsive-admin-template/theme/dashboard.html",
+		"/C/Users/workstation1-user/Downloads/themeforest-1750311-canvas-admin-premium-responsive-admin-template/theme/javascripts/app.js",
+		"/C/Users/workstation1-user/Downloads/themeforest-1750311-canvas-admin-premium-responsive-admin-template/theme/tables.html",
+		"/C/Users/workstation1-user/Downloads/themeforest-1750311-canvas-admin-premium-responsive-admin-template/theme/charts.html",
+		"/C/Users/workstation1-user/Downloads/themeforest-1750311-canvas-admin-premium-responsive-admin-template/theme/javascripts/ChartHelper.js",
+		"/C/Users/workstation1-user/Documents/import_i18n_fr-FR_en-GB.sql",
+		"/C/Users/workstation1-user/AppData/Local/CloudBerry Explorer for Amazon S3/settings.list",
+		"/C/Users/workstation1-user/Downloads/jboss-jdf-ticket-monster-1.0.5.Final-5-g559e687/jboss-jdf-ticket-monster-559e687/demo/src/main/webapp/resources/js/app/collections/venues.js",
+		"/C/Users/workstation1-user/Downloads/jboss-jdf-ticket-monster-1.0.5.Final-5-g559e687/jboss-jdf-ticket-monster-559e687/demo/src/main/webapp/index.html",
+		"/C/Users/workstation1-user/Downloads/themeforest-1750311-canvas-admin-premium-responsive-admin-template/theme/invoice.html",
+		"/C/Users/workstation1-user/Downloads/themeforest-1750311-canvas-admin-premium-responsive-admin-template/theme/index.html"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"D:\\workspace04\\Serveurs\\red5-1.0.0-RC2\\",
+			"D:\\workspace04\\Serveurs\\red5-1.0.0-RC2\\.*\\.properties",
+			"D:\\workspace04\\Serveurs\\red5-1.0.0-RC2\\**.properties",
+			"D:\\workspace04\\Serveurs\\red5-1.0.0-RC2",
+			"D:\\Red5\\webappsbuffer\\demoPack"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"M.",
+			"ipsum",
+			"laborum",
+			"A",
+			"zez",
+			"az",
+			"azeeza",
+			"eza",
+			"azeeza",
+			"azeza",
+			"aze",
+			"if",
+			"&",
+			"copy-server",
+			"mysqlimport",
+			"\\\\'",
+			"\\\\\"",
+			"\\\\\"\\\\\"",
+			"\\\\\"\"",
+			"\\\\\\\\\"",
+			"\\\\\"",
+			"\"",
+			"\\\"",
+			"ssha",
+			"}\"/>",
+			"@{webapp.name}",
+			"@{todir}",
+			"@{sv3d.home}/sv3d/frameworks/projects/server/core/webapps",
+			"\"git.exe\"",
+			"${target}",
+			"@{sv3d.home}/sv3d/",
+			"${sv3d.home}",
+			"${release.sv3d.version}.${release.sv3d.build}",
+			"release.flex.fullversion",
+			"release.sv3d.fullversion",
+			"'@{debug}'",
+			"delete",
+			"osmf",
+			"todir=\"${basedir}/builds/trunk/rsls\"",
+			"release.version=\"trunk\"",
+			"debug=\"true\"",
+			"release.tlf.fullversion",
+			"release.flex.fullversion",
+			"app",
+			"${release.osmf.version}.${release.osmf.build}",
+			"${build.locale}",
+			"${name.suffix}",
+			"@{release.sv3d.version}.@{release.sv3d.build}",
+			"${release.tlf.version}.${release.tlf.build}",
+			"@{release.flex.version}.@{release.flex.build}",
+			"${release.flex.version}.${release.flex.build}",
+			"@{build.locale}",
+			"${SV3D_HOME}",
+			"${FLEX_HOME}",
+			"${WORKSPACE_HOME}",
+			"${debug}",
+			"${APP_HOME}",
+			"${SV3D_HOME}",
+			"@{commons}",
+			"${release.osmf.version}.${release.osmf.build}",
+			"${release.tlf.version}.${release.tlf.build}",
+			"${release.flex.version}.${release.flex.build}",
+			"${global.playerglobal.version}",
+			"${FLEX_HOME}",
+			"${compc.jvm.args}",
+			"@{basedir}",
+			"${debug}",
+			"${build.number}",
+			"${release.version}",
+			"${name.suffix}",
+			"${commons}",
+			"${SV3D_HOME}",
+			"arg1=\"debug\"",
+			"${flex.home}",
+			"${sv3d.home}",
+			"FLEX_HOME",
+			"SV3D_HOME",
+			"@{release.suffix}",
+			"name.suffix",
+			"select",
+			"datasour",
+			"i18n",
+			"\n		",
+			"documents_podcastVideo",
+			"viewerContainer",
+			"Sv3dTree",
+			"closeDocButton",
+			"documents_tree",
+			"documents_treeController",
+			"documents_pdfviewer",
+			"documentsBackgroundImage",
+			"treeWindowProductDocuments",
+			"closeButton",
+			"documents_tree",
+			"Button",
+			"closeProductDocsButton",
+			"hallDocuments_tree",
+			"hallDocuments_treeController",
+			"productsDocuments_podcastVideo",
+			"productsDocuments_pdfviewer",
+			"jdwp",
+			"8787",
+			"\"});\")",
+			"default.context"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"&amp;",
+			"'",
+			"\\\\'",
+			"\\\\\"",
+			"\\\\\"\\\\\"",
+			"\\\\\"\"",
+			"\\\\\\\\\"",
+			"\\\\'",
+			"\\\\\"",
+			"sv3d.deployer",
+			"@{webapp.dir}/@{webapp.name}",
+			"@{todir}",
+			"\"${gitexec}\"",
+			"@{target}",
+			"@{sv3d.home}/",
+			"@{sv3d.home}",
+			"@{release.sv3d.fullversion}",
+			"\"@{debug}\"",
+			"todir=\"@{todir}\"",
+			"release.version=\"@{release.version}\"",
+			"debug=\"@{debug}\"",
+			"@{release.osmf.fullversion}",
+			"@{build.locale}",
+			"_${release.suffix}",
+			"@{release.sv3d.fullversion}",
+			"@{release.tlf.fullversion}",
+			"@{release.flex.fullversion}",
+			"@{release.flex.version}.@{release.flex.build}",
+			"${build.locale}",
+			"@{sv3d.home}",
+			"@{flex.home}",
+			"@{workspace.home}",
+			"@{workspace.home",
+			"@{debug}",
+			"@{workspace.home}/projects/@{project}",
+			"@{sv3d.home}",
+			"",
+			"@{release.osmf.version}",
+			"${release.tlf.fullversion}",
+			"@{release.flex.fullversion}",
+			"@{global.playerglobal.version}",
+			"@{flex.home}",
+			"@{compc.jvm.args}",
+			"@{sv3d.home}/frameworks/projects/theme",
+			"@{debug}",
+			"@{build.number}",
+			"@{release.version}",
+			"_${release.suffix}",
+			"@{commons}",
+			"@{sv3d.home}",
+			"arg1=\"@{debug}\"",
+			"${FLEX_HOME}",
+			"${SV3D_HOME}",
+			"flex.home",
+			"sv3d.home",
+			"${release.suffix}",
+			"viewerContainer2",
+			"closeDocButton2",
+			"documents_tree2",
+			"documents_treeController2",
+			"documents_pdfviewer2",
+			"documentsBackgroundImage2",
+			"documents_podcastVideo",
+			"documents_pdfviewer"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Program Files (x86)/Unity/Editor/Data/Mono/bin/xbuild.bat",
+					"settings":
+					{
+						"buffer_size": 70,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Batch File/Batch File.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 277.0
+	},
+	"output.git":
+	{
+		"height": 215.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/SublimeX/Unity/SublimeLogger-Source/LoggerImpl.cs"
+			],
+			[
+				"build",
+				"build/build.xml"
+			],
+			[
+				"entrypoi",
+				"workspace/sv3d/frameworks/projects/core/src/sv3d/core/EntryPoint.mxml"
+			],
+			[
+				"entrypoin",
+				"workspace/sv3d/frameworks/projects/core/src/sv3d/core/EntryPoint.mxml"
+			],
+			[
+				"sv3dsessionm",
+				"workspace/sv3d/frameworks/projects/core/src/sv3d/core/Sv3dSessionManager.as"
+			],
+			[
+				"demopackfo/serv",
+				"projects/demoPackFo/www/config/server.xml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/projects/match/match.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 298.0,
+	"status_bar_visible": true
+}

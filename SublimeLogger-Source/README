@@ -1,0 +1,11 @@
+This is a custom xbuild logger by Jacob Pennock in order to facilitate the Sublime Build System RegEx parsing for use with Unity 3d game engine.
+
+Use of this system to test complie your unity C# scripts is very untested and unreailable at best. I would recomend against using 
+it on a production project. 
+
+Rename the file MyUnityProject.sublime-project to the name of your project (this all might break if your project has spaces in its name) Then move it outside the SublimeUnity folder and into the root of your project (the folder containing assets and all the .sln files). Open one of you scripts in sublime and hit ctr+B to build and hope it works.
+
+Now you can by pressing F7 build the solution, and if the compilation fails you could use F4 and Shift+F4 to loop between the files with compilation errors.
+
+Good luck but be warned, there be dragons here.  
+
