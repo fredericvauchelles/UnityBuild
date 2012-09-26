@@ -16,11 +16,16 @@
        {
                "cmd":
                [
-                       "${packages}/UnityBuild/osx/bin/xbuild",
+                       "/Applications/Unity/Unity.app/Contents/Frameworks/Mono/bin/xbuild",
                        "${project_path}/${project_base_name}-csharp.sln",
                        "/noconsolelogger",
                        "/logger:${packages}/UnityBuild/SublimeLogger.dll"
                ],
-               "file_regex": "^([\\d\\w:/\\.]*)\\((\\d+),(\\d+)\\)\\s*(.*)$"
+               "file_regex": "^([\\d\\w:/\\.]*)\\((\\d+),(\\d+)\\)\\s*(.*)$",
+               "env":
+               {
+                  "MONO_PATH":"/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/2.0",
+                  "MONO":"/Applications/Unity/Unity.app/Contents/Frameworks/Mono/bin"
+               }
        }
 }
