@@ -48,14 +48,6 @@
 	"buffers":
 	[
 		{
-			"file": "UnityBuild.sublime-project",
-			"settings":
-			{
-				"buffer_size": 126,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "Unity.sublime-build",
 			"settings":
 			{
@@ -67,16 +59,24 @@
 	"build_system": "Packages/User/sv3d-build.sublime-build",
 	"command_palette":
 	{
-		"height": 58.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"git push",
 				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"install",
+				"Package Control: Install Package"
 			],
 			[
 				"git pu",
@@ -89,10 +89,6 @@
 			[
 				"git com",
 				"Git: Commit"
-			],
-			[
-				"git add",
-				"Git: Add Current File"
 			],
 			[
 				"git ad",
@@ -248,8 +244,9 @@
 	},
 	"file_history":
 	[
-		"/C/Program Files (x86)/Unity/Editor/Data/Mono/bin/xbuild.bat",
 		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/UnityBuild/Unity.sublime-workspace",
+		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/UnityBuild/UnityBuild.sublime-project",
+		"/C/Program Files (x86)/Unity/Editor/Data/Mono/bin/xbuild.bat",
 		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/UnityBuild/Unity.sublime-build",
 		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/SublimeX/Unity/UnityBuild",
 		"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/UnityBuild/BuildLogger/BuildLogger.cs",
@@ -374,8 +371,7 @@
 		"/C/Users/workstation1-user/Downloads/themeforest-1750311-canvas-admin-premium-responsive-admin-template/theme/invoice.html",
 		"/C/Users/workstation1-user/Downloads/themeforest-1750311-canvas-admin-premium-responsive-admin-template/theme/index.html",
 		"/D/projects/symbols/src/main/webapp/WEB-INF/templates/default.original.xhtml",
-		"/D/projects/jboss-as-7.1.1.Final/standalone/configuration/standalone.xml",
-		"/C/Users/workstation1-user/Documents/dumps/Dump20120808.sql"
+		"/D/projects/jboss-as-7.1.1.Final/standalone/configuration/standalone.xml"
 	],
 	"find":
 	{
@@ -584,38 +580,11 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "UnityBuild.sublime-project",
-					"settings":
-					{
-						"buffer_size": 126,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								119,
-								23
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "Unity.sublime-build",
 					"settings":
 					{
@@ -626,8 +595,8 @@
 						"selection":
 						[
 							[
-								276,
-								276
+								236,
+								236
 							]
 						],
 						"settings":

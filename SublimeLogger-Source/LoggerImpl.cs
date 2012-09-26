@@ -53,10 +53,9 @@ namespace SublimeLogger
 
         void ErrorRaised(object sender, BuildErrorEventArgs e)
         {
-            string fullPath = Path.Combine(ProjectDirectory, e.File);
+            string fullPath = ProjectDirectory != null ? Path.Combine(ProjectDirectory, e.File) : e.File;
             Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine("{0}({1},{2})  error:{3}  {4}", fullPath, e.LineNumber, e.ColumnNumber, e.Code, e.Message);
-            Console.WriteLine();
             ErrorCount++;
             Console.ForegroundColor = ConsoleColor.White;
         }
@@ -64,12 +63,10 @@ namespace SublimeLogger
         void WarningRaised(object sender, BuildWarningEventArgs e)
         {
             string fullPath = ProjectDirectory != null ? Path.Combine(ProjectDirectory, e.File) : e.File;
-            Console.WriteLine(fullPath);
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             if (e.Code != null)
             {
                 Console.WriteLine("{0}({1},{2})  warning:{3}  {4}", fullPath, e.LineNumber, e.ColumnNumber, e.Code, e.Message);
-                Console.WriteLine();
                 WarningCount++;
             }
             Console.ForegroundColor = ConsoleColor.White;
