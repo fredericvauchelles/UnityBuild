@@ -1,6 +1,4 @@
 {
-       "file_regex": "^([\\d\\w:\\\\\\.]*)\\((\\d+),(\\d+)\\)\\s*(.*)$",
-
        "windows":
        {
                "cmd":
@@ -10,18 +8,19 @@
                        "/noconsolelogger",
                        "/logger:${packages}\\UnityBuild\\SublimeLogger.dll"
                ],
-               "path":"C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\"
+               "path":"C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\",
+               "file_regex": "^([\\d\\w:\\\\\\.]*)\\((\\d+),(\\d+)\\)\\s*(.*)$"
        },
 
        "osx":
        {
                "cmd":
                [
-                       "xbuild",
+                       "${packages}/UnityBuild/osx/bin/xbuild",
                        "${project_path}/${project_base_name}-csharp.sln",
                        "/noconsolelogger",
                        "/logger:${packages}/UnityBuild/SublimeLogger.dll"
                ],
-               "path":"/Unity/Editor/Data/Mono/bin/xbuild"
+               "file_regex": "^([\\d\\w:/\\.]*)\\((\\d+),(\\d+)\\)\\s*(.*)$"
        }
 }

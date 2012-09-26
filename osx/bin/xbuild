@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Versions/2.10.2/bin/mono $MONO_OPTIONS /Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Versions/2.10.2/lib/mono/4.0/xbuild.exe "$@"
