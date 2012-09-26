@@ -1,12 +1,12 @@
 {
-	"file_regex": "^([^(]*)\\((\\d*),(\\d*)\\)\\s*(.*)",
+	"file_regex": "^([\\d\\w:\\\\\\.]*)\\((\\d+),(\\d+)\\)\\s*(.*)$",
 
 	"windows":
 	{
 		"cmd":
 		[
 			"xbuild.bat",
-			"${project_path}\\\\${project_base_name}.sln",
+			"${project_path}\\\\${project_base_name}-csharp.sln",
 			"/noconsolelogger",
 			"/logger:${packages}\\User\\UnityBuild\\SublimeLogger.dll"
 		],
@@ -18,7 +18,7 @@
 		"cmd":
 		[
 			"xbuild",
-			"${project_path}/${project_base_name}.sln",
+			"${project_path}/${project_base_name}-csharp.sln",
 			"/noconsolelogger",
 			"/logger:${packages}/User/UnityBuild/SublimeLogger.dll"
 		],

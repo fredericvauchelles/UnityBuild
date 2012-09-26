@@ -27,7 +27,6 @@ namespace SublimeLogger
         void ProjectStarted(object sender, ProjectStartedEventArgs e)
         {
             ProjectDirectory = Path.GetDirectoryName(e.ProjectFile);
-            Console.WriteLine(String.Empty, e);
         }
 
         void BuildFinished(object sender, BuildFinishedEventArgs e)
