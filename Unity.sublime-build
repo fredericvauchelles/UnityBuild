@@ -1,10 +1,27 @@
 {
-	"cmd":
-	[
-		"C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
-		"${project_path}\\\\${project_base_name}.sln",
-		"/noconsolelogger",
-		"/logger:${packages}\\User\\UnityBuild\\SublimeLogger.dll"
-	],
-	"file_regex": "([^(]*)\\((\\d*),(\\d*)\\)\\s*(.*)"
+	"file_regex": "^([^(]*)\\((\\d*),(\\d*)\\)\\s*(.*)",
+
+	"windows":
+	{
+		"cmd":
+		[
+			"xbuild.bat",
+			"${project_path}\\\\${project_base_name}.sln",
+			"/noconsolelogger",
+			"/logger:${packages}\\User\\UnityBuild\\SublimeLogger.dll"
+		],
+		"path":"C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\"
+	},
+
+	"osx":
+	{
+		"cmd":
+		[
+			"xbuild",
+			"${project_path}/${project_base_name}.sln",
+			"/noconsolelogger",
+			"/logger:${packages}/User/UnityBuild/SublimeLogger.dll"
+		],
+		"path":"/Unity/Editor/Data/Mono/bin/xbuild"
+	}
 }

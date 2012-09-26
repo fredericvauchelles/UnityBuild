@@ -47,14 +47,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Unity.sublime-build",
-			"settings":
-			{
-				"buffer_size": 538,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/User/sv3d-build.sublime-build",
 	"command_palette":
@@ -62,10 +54,6 @@
 		"height": 392.0,
 		"selected_items":
 		[
-			[
-				"",
-				"About"
-			],
 			[
 				"git push",
 				"Git: Push"
@@ -387,7 +375,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 			"C:\\Users\\workstation1-user\\AppData\\Roaming\\Sublime Text 2\\Packages\\Default",
@@ -592,36 +580,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Unity.sublime-build",
-					"settings":
-					{
-						"buffer_size": 538,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								23
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -708,7 +668,7 @@
 		[
 			[
 				"",
-				"/D/projects/match/match.sublime-project"
+				"/C/Users/workstation1-user/AppData/Roaming/Sublime Text 2/Packages/User/UnityBuild/Unity.sublime-build"
 			],
 			[
 				"ma",
