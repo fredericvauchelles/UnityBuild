@@ -1,26 +1,43 @@
 {
-       "windows":
-       {
-               "cmd":
-               [
-                       "xbuild.bat",
-                       "${project_path}\\\\${project_base_name}-csharp.sln",
-                       "/noconsolelogger",
-                       "/logger:${packages}\\UnityBuild\\SublimeLogger.dll"
-               ],
-               "path":"C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\",
-               "file_regex": "^([\\d\\w:\\\\\\.]*)\\((\\d+),(\\d+)\\)\\s*(.*)$"
-       },
-
-       "osx":
-       {
-               "cmd":
-               [
-                       "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Commands/xbuild",
-                       "${project_path}/${project_base_name}-csharp.sln",
-                       "/noconsolelogger",
-                       "/logger:${packages}/UnityBuild/SublimeLogger.dll"
-               ],
-               "file_regex": "^([\\d\\w:/\\.]*)\\((\\d+),(\\d+)\\)\\s*(.*)$"
+    "windows": {
+        "cmd": [
+            "C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
+            "${project_path}\\\\${project_base_name}-csharp.sln",
+            "/noconsolelogger",
+            "/logger:${packages}\\UnityBuild\\SublimeLogger.dll"
+        ],
+        "file_regex": "^([\\d\\w:\\\\\\.]*)\\((\\d+),(\\d+)\\)\\s*(.*)$"
+    },
+    "osx": {
+        "cmd": [
+            "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Commands/xbuild",
+            "${project_path}/${project_base_name}-csharp.sln",
+            "/noconsolelogger",
+            "/logger:${packages}/UnityBuild/SublimeLogger.dll"
+        ],
+        "file_regex": "^([\\d\\w:/\\.]*)\\((\\d+),(\\d+)\\)\\s*(.*)$"
+    },
+    "variants": [
+        {
+            "name": "Clean",
+            "windows": {
+                "cmd": [
+                    "C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
+                    "${project_path}\\\\${project_base_name}-csharp.sln",
+                    "/target:Clean",
+                    "/noconsolelogger",
+                    "/logger:${packages}\\UnityBuild\\SublimeLogger.dll"
+                ]
+            },
+            "osx": {
+                "cmd": [
+                    "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Commands/xbuild",
+                    "${project_path}/${project_base_name}-csharp.sln",
+                    "/target:Clean",
+                    "/noconsolelogger",
+                    "/logger:${packages}/UnityBuild/SublimeLogger.dll"
+                ]
+            }
         }
+    ]
 }
