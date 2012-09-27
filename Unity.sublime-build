@@ -16,7 +16,7 @@
        {
                "cmd":
                [
-                       "/Applications/Unity/Unity.app/Contents/Frameworks/Mono/bin/xbuild",
+                       "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Commands/xbuild",
                        "${project_path}/${project_base_name}-csharp.sln",
                        "/noconsolelogger",
                        "/logger:${packages}/UnityBuild/SublimeLogger.dll"
