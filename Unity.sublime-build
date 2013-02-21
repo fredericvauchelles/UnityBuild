@@ -6,7 +6,7 @@
             "/noconsolelogger",
             "/logger:${packages}\\Unity3D Build System\\SublimeLogger.dll"
         ],
-        "file_regex": "^([\\d\\w:\\\\\\.]*)\\((\\d+),(\\d+)\\)\\s*(.*)$"
+        "file_regex": "^([\\d\\w:\\\\\\.-]*)\\((\\d+),(\\d+)\\)\\s*(.*)$"
     },
     "osx": {
         "cmd": [
@@ -15,7 +15,7 @@
             "/noconsolelogger",
             "/logger:${packages}/Unity3D Build System/SublimeLogger.dll"
         ],
-        "file_regex": "^([\\d\\w:/\\.]*)\\((\\d+),(\\d+)\\)\\s*(.*)$"
+        "file_regex": "^([\\d\\w:/\\.-]*)\\((\\d+),(\\d+)\\)\\s*(.*)$"
     },
     "variants": [
         {
