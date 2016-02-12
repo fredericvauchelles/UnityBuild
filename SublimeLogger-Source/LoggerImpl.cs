@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.IO;
 using Microsoft.Build.Framework;
@@ -8,68 +8,56 @@ namespace SublimeLogger
 {
     public class LoggerImpl : Logger
     {
-        private int ErrorCount;
-        private int WarningCount;
-        private string ProjectDirectory;
-
+        private int m_errorCount;
+        private string m_projectDirectory;
+        private int m_warningCount;
 
         public override void Initialize(IEventSource eventSource)
         {
-            eventSource.ProjectStarted += ProjectStarted;
-            eventSource.BuildStarted += BuildStarted;
-            eventSource.BuildFinished += BuildFinished;
-            eventSource.ErrorRaised += ErrorRaised;
-            eventSource.WarningRaised += WarningRaised;
-            ErrorCount = 0;
-            WarningCount = 0;
+            Debug.Assert(eventSource != null, "eventSource != null");
+            eventSource.ProjectStarted += HandleProjectStarted;
+            eventSource.BuildFinished += HandleBuildFinished;
+            eventSource.ErrorRaised += HandleErrorRaised;
+            eventSource.WarningRaised += HandleWarningRaised;
+            m_errorCount = 0;
+            m_warningCount = 0;
         }
 
-        void ProjectStarted(object sender, ProjectStartedEventArgs e)
+        private void HandleProjectStarted(object sender, ProjectStartedEventArgs e)
         {
-            ProjectDirectory = Path.GetDirectoryName(e.ProjectFile);
+            m_projectDirectory = Path.GetDirectoryName(e.ProjectFile);
         }
 
-        void BuildFinished(object sender, BuildFinishedEventArgs e)
+        private void HandleBuildFinished(object sender, BuildFinishedEventArgs e)
         {
-            Console.ForegroundColor = ConsoleColor.White;
             if (e.Succeeded)
             {
-                Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine("Compilation SUCCEEDED! Errors:{0} Warnings:{1}",ErrorCount,WarningCount);
+                Console.WriteLine("Build succeeded. Warnings:{0}", m_warningCount);
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.DarkRed;
-                Console.WriteLine("Compilation FAILED! Errors:{0} Warnings:{1}",ErrorCount,WarningCount);
+                Console.WriteLine("Build failed. Errors:{0} Warnings:{1}", m_errorCount, m_warningCount);
             }
-            Console.BackgroundColor = ConsoleColor.Black;
         }
 
-        void BuildStarted(object sender, BuildStartedEventArgs e)
+        private void HandleErrorRaised(object sender, BuildErrorEventArgs e)
         {
-            Console.WriteLine("Sublime Text 2 output logger by Jacob Pennock, Updated by Frédéric Vauchelles");
+            var fullPath = m_projectDirectory != null ? Path.Combine(m_projectDirectory, e.File) : e.File;
+            //Console.WriteLine("{0}({1},{2})  error:{3}  {4}", fullPath, e.LineNumber, e.ColumnNumber, e.Code, e.Message);
+            Console.WriteLine("{0}:{1}:{2}: Error: {3}", fullPath, e.LineNumber, e.ColumnNumber, e.Message);
+            m_errorCount++;
         }
 
-        void ErrorRaised(object sender, BuildErrorEventArgs e)
+        private void HandleWarningRaised(object sender, BuildWarningEventArgs e)
         {
-            string fullPath = ProjectDirectory != null ? Path.Combine(ProjectDirectory, e.File) : e.File;
-            Console.ForegroundColor = ConsoleColor.DarkRed;
-            Console.WriteLine("{0}({1},{2})  error:{3}  {4}", fullPath, e.LineNumber, e.ColumnNumber, e.Code, e.Message);
-            ErrorCount++;
-            Console.ForegroundColor = ConsoleColor.White;
-        }
-
-        void WarningRaised(object sender, BuildWarningEventArgs e)
-        {
-            string fullPath = ProjectDirectory != null ? Path.Combine(ProjectDirectory, e.File) : e.File;
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            var fullPath = m_projectDirectory != null ? Path.Combine(m_projectDirectory, e.File) : e.File;
             if (e.Code != null)
             {
-                Console.WriteLine("{0}({1},{2})  warning:{3}  {4}", fullPath, e.LineNumber, e.ColumnNumber, e.Code, e.Message);
-                WarningCount++;
+                Console.WriteLine("File \"{0}\", line {1} Warning: {2}", fullPath, e.LineNumber, e.Message);
+                //Console.WriteLine("{0}({1},{2})  warning:{3}  {4}", fullPath, e.LineNumber, e.ColumnNumber, e.Code,
+                //    e.Message);
+                m_warningCount++;
             }
-            Console.ForegroundColor = ConsoleColor.White;
         }
-
     }
 }

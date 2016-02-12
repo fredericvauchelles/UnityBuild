@@ -4,18 +4,18 @@
             "C:\\Program Files\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
             "${project_path}\\\\${project_base_name}.sln",
             "/noconsolelogger",
-            "/logger:${packages}\\Unity3D Build System\\SublimeLogger.dll"
+            "/logger:${packages}\\Unity3DBuild\\SublimeLogger.dll"
         ],
-        "file_regex": "^([\\d\\w:\\\\\\.-]*)\\((\\d+),(\\d+)\\)\\s*(.*)$"
+        "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
     },
     "osx": {
         "cmd": [
-            "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Commands/xbuild",
+            "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Versions/Current/bin/xbuild",
             "${project_path}/${project_base_name}-csharp.sln",
             "/noconsolelogger",
-            "/logger:${packages}/Unity3D Build System/SublimeLogger.dll"
+            "/logger:${packages}/Unity3DBuild/SublimeLogger.dll"
         ],
-        "file_regex": "^([\\d\\w:/\\.-]*)\\((\\d+),(\\d+)\\)\\s*(.*)$"
+        "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
     },
     "variants": [
         {
@@ -26,16 +26,16 @@
                     "${project_path}\\\\${project_base_name}.sln",
                     "/target:Clean",
                     "/noconsolelogger",
-                    "/logger:${packages}\\Unity3D Build System\\SublimeLogger.dll"
+                    "/logger:${packages}\\Unity3DBuild\\SublimeLogger.dll"
                 ]
             },
             "osx": {
                 "cmd": [
-                    "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Commands/xbuild",
+                    "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Versions/Current/bin/xbuild",
                     "${project_path}/${project_base_name}-csharp.sln",
                     "/target:Clean",
                     "/noconsolelogger",
-                    "/logger:${packages}/Unity3D Build System/SublimeLogger.dll"
+                    "/logger:${packages}/Unity3DBuild/SublimeLogger.dll"
                 ]
             }
         }
