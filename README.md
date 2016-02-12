@@ -1,7 +1,6 @@
-Unity3D Build
-=============
+# Unity3D Build
 
-This is an extension of Sublime Text 3 to support Unity3D builds.
+This is a Sublime Text 3 package to support Unity3D builds.
 This is a fork of https://github.com/fredpointzero/UnityBuild as the original project is no longer maintained.
 
 Tested with:
@@ -13,7 +12,19 @@ The logger used is based on Jacob Pennock's logger
 * [Blog](http://www.jacobpennock.com/Blog/using-sublime-text-2-with-unity3d-2/)
 * [Unity3D Forum](http://forum.unity3d.com/threads/using-unity-with-sublime-text-2-how-to-get-everything-set-up.128352/)
 
-How to install
-==============
+## How to install
 
 Clone this repo into `Sublime Text 3\Packages`.
+
+## Usage
+
+### Windows
+
+`F7` starts the build. 
+`Ctr+Shift+B` lets you select a between `build` and `clean`
+`F4` jumps to the next error or warning
+`Shift+F4` jumps to the previous error or warning
+
+### OSX
+
+TODO!
