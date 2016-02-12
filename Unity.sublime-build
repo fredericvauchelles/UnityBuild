@@ -1,8 +1,8 @@
 {
     "windows": {
         "cmd": [
-            "C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
-            "${project_path}\\\\${project_base_name}-csharp.sln",
+            "C:\\Program Files\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
+            "${project_path}\\\\${project_base_name}.sln",
             "/noconsolelogger",
             "/logger:${packages}\\Unity3D Build System\\SublimeLogger.dll"
         ],
@@ -22,8 +22,8 @@
             "name": "Clean",
             "windows": {
                 "cmd": [
-                    "C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
-                    "${project_path}\\\\${project_base_name}-csharp.sln",
+                    "C:\\Program Files\\Unity\\Editor\\Data\\Mono\\bin\\xbuild.bat",
+                    "${project_path}\\\\${project_base_name}.sln",
                     "/target:Clean",
                     "/noconsolelogger",
                     "/logger:${packages}\\Unity3D Build System\\SublimeLogger.dll"
