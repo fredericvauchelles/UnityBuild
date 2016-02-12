@@ -14,21 +14,21 @@ The logger used is based on Jacob Pennock's logger
 
 ## How to install
 
-Clone this repo into `Sublime Text 3\Packages`.
+Clone this repo into `Sublime Text 3/Packages/Unity3DBuild`.
 
 ## Usage
 
-1) Create a ST3 project exactly named like the Unity3D project.
-2) Select a build system `Tools -> Build System -> Unity`
+1. Create a ST3 project exactly named like the Unity3D project.
+2. Select the build system `Tools -> Build System -> Unity`
 
 Hint: You ST3 project file must have the same name as your project's `.sln` file
 
 ### Windows
 
-`F7` starts the build. 
-`Ctr+Shift+B` lets you select a between `build` and `clean`
-`F4` jumps to the next error or warning
-`Shift+F4` jumps to the previous error or warning
+* `F7` starts the build. 
+* `Ctr+Shift+B` lets you select a between `build` and `clean`
+* `F4` jumps to the next error or warning
+* `Shift+F4` jumps to the previous error or warning
 
 ### OSX
 
@@ -36,5 +36,5 @@ TODO!
 
 ## How To Build
 
-1) Build the Sublime Logger `.dll` from source.
-2) Copy the `.dll` next to the `.sublime-build`.
+1. Build the Sublime Logger `.dll` from source.
+2. Copy the `.dll` next to the `.sublime-build`.

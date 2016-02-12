@@ -11,7 +11,7 @@
     "osx": {
         "cmd": [
             "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Versions/Current/bin/xbuild",
-            "${project_path}/${project_base_name}-csharp.sln",
+            "${project_path}/${project_base_name}.sln",
             "/noconsolelogger",
             "/logger:${packages}/Unity3DBuild/SublimeLogger.dll"
         ],
@@ -32,7 +32,7 @@
             "osx": {
                 "cmd": [
                     "/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Versions/Current/bin/xbuild",
-                    "${project_path}/${project_base_name}-csharp.sln",
+                    "${project_path}/${project_base_name}.sln",
                     "/target:Clean",
                     "/noconsolelogger",
                     "/logger:${packages}/Unity3DBuild/SublimeLogger.dll"
