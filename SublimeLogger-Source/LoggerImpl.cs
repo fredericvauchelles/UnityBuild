@@ -43,7 +43,6 @@ namespace SublimeLogger
         private void HandleErrorRaised(object sender, BuildErrorEventArgs e)
         {
             var fullPath = m_projectDirectory != null ? Path.Combine(m_projectDirectory, e.File) : e.File;
-            //Console.WriteLine("{0}({1},{2})  error:{3}  {4}", fullPath, e.LineNumber, e.ColumnNumber, e.Code, e.Message);
             Console.WriteLine("{0}:{1}:{2}: Error: {3}", fullPath, e.LineNumber, e.ColumnNumber, e.Message);
             m_errorCount++;
         }
@@ -53,9 +52,7 @@ namespace SublimeLogger
             var fullPath = m_projectDirectory != null ? Path.Combine(m_projectDirectory, e.File) : e.File;
             if (e.Code != null)
             {
-                Console.WriteLine("File \"{0}\", line {1} Warning: {2}", fullPath, e.LineNumber, e.Message);
-                //Console.WriteLine("{0}({1},{2})  warning:{3}  {4}", fullPath, e.LineNumber, e.ColumnNumber, e.Code,
-                //    e.Message);
+                Console.WriteLine("{0}:{1}:{2}: Warning: {3}", fullPath, e.LineNumber, e.ColumnNumber, e.Message);
                 m_warningCount++;
             }
         }

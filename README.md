@@ -18,6 +18,11 @@ Clone this repo into `Sublime Text 3\Packages`.
 
 ## Usage
 
+1) Create a ST3 project exactly named like the Unity3D project.
+2) Select a build system `Tools -> Build System -> Unity`
+
+Hint: You ST3 project file must have the same name as your project's `.sln` file
+
 ### Windows
 
 `F7` starts the build. 
@@ -28,3 +33,8 @@ Clone this repo into `Sublime Text 3\Packages`.
 ### OSX
 
 TODO!
+
+## How To Build
+
+1) Build the Sublime Logger `.dll` from source.
+2) Copy the `.dll` next to the `.sublime-build`.
