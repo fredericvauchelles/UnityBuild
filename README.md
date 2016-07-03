@@ -1,24 +1,40 @@
-UnityBuild
-========
+# Unity3D Build
 
-This is an extension of Sublime Text 2 to support Unity 3d builds.
+This is a Sublime Text 3 package to support Unity3D builds.
+This is a fork of https://github.com/fredpointzero/UnityBuild as the original project is no longer maintained.
 
-Use Unity as build system and enjoy !
+Tested with:
+* Windows 7
+* Unity 5.3.2p2
+* Sublime Text 3 Build 3103 
 
-Windows
-========
+The logger used is based on Jacob Pennock's logger
+* [Blog](http://www.jacobpennock.com/Blog/using-sublime-text-2-with-unity3d-2/)
+* [Unity3D Forum](http://forum.unity3d.com/threads/using-unity-with-sublime-text-2-how-to-get-everything-set-up.128352/)
 
-If it does not work at the first time, check the xbuild path in UnityBuild.sublime-build (it uses the default location of Unity)
-(C:\\Program Files (x86)\\Unity\\Editor\\Data\\Mono\\bin\\)
+## How to install
 
-OSX
-========
+Clone this repo into `Sublime Text 3/Packages/Unity3DBuild`.
 
-Make sure you have MonoDevelop 2.10.2 installed on your OSX in the default location.
-If get it here : http://download.mono-project.com/archive/2.10.2/macos-10-x86/5.4/MonoFramework-MRE-2.10.2_5.4.macos10.novell.x86.dmg
+## Usage
 
-If it does not work at the first time, check the xbuild path in UnityBuild.sublime-build (it uses the default location of Unity)
-(/Applications/Unity/MonoDevelop.app/Contents/Frameworks/Mono.framework/Commands/xbuild)
+1. Create a ST3 project exactly named like the Unity3D project.
+2. Select the build system `Tools -> Build System -> Unity`
 
+Hint: You ST3 project file must have the same name as your project's `.sln` file
 
-NB : The logger used is based on Jacob Pennock's logger
+### Windows
+
+* `F7` starts the build. 
+* `Ctr+Shift+B` lets you select a between `build` and `clean`
+* `F4` jumps to the next error or warning
+* `Shift+F4` jumps to the previous error or warning
+
+### OSX
+
+TODO!
+
+## How To Build
+
+1. Build the Sublime Logger `.dll` from source.
+2. Copy the `.dll` next to the `.sublime-build`.
